@@ -1,5 +1,7 @@
 const tituloTarefa = document.querySelector('tituloTarefa');
 
-document.addEventListener(e => {
+tituloTarefa.addEventListener(e => {
+    const el = e.target;
+    console.log(el);
     
 });
